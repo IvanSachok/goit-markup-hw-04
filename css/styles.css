@@ -281,11 +281,21 @@ img {
 }
 /* ----------------------------------------Studio - Main content------------------------------- */
 .section-main-studio {
-  background: var(--background-footer);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+  height: 600px;
   color: var(--primary-background-color);
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
   justify-content: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 .section-studio {
   justify-content: flex-start;
