@@ -3,6 +3,7 @@
   --primary-background-color: #ffffff;
   --hover: #404bbf;
   --focus: #404bbf;
+  --hover-footer: #31d0aa;
   --logo-web: #4d5ae5;
   --heder-list-contacts: #434455;
   --background-footer: #2e2f42;
@@ -258,6 +259,15 @@ img {
   align-items: center;
   justify-content: center;
 }
+.soc-card-icons {
+  fill: var(--primary-background-color);
+}
+.soc-card-link:hover {
+  background-color: var(--hover);
+}
+.soc-card-link:focus {
+  background-color: var(--focus);
+}
 
 .image-text {
   font-family: "Roboto";
@@ -277,16 +287,18 @@ img {
 .page-footer {
   color: var(--footer-color);
   background: var(--background-footer);
-  align-content: center;
   height: 312px;
 }
-.footer-container {
+.foot-container {
+  display: flex;
+}
+.logo-container {
   padding-top: 101.5px;
+  justify-content: center;
 }
 .container-cards {
-  margin-bottom: 132px;
-  margin-left: 120px;
-  justify-content: center;
+  padding-top: 100px;
+  padding-left: 120px;
 }
 
 .footer-web {
@@ -315,13 +327,14 @@ img {
   font-size: 16px;
   color: var(--primary-background-color);
   line-height: calc(24 / 16);
-  text-align: center;
+  justify-content: flex-start;
 }
 .footer-soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+  margin-top: 16px;
 }
 .footer-soc-item {
   width: 40px;
@@ -335,6 +348,12 @@ img {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-link:hover {
+  background-color: var(--hover-footer);
+}
+.footer-soc-link:focus {
+  background-color: var(--hover-footer);
 }
 /* ----------------------------------------Studio - Main content------------------------------- */
 .section-main-studio {
