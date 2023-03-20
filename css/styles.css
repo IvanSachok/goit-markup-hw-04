@@ -195,17 +195,14 @@ img {
   border: none;
   padding: 12px 24px;
 }
-
 .botton-main:last-child {
   margin-right: 0;
 }
-
 .image-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-
 .image-title {
   font-family: "Roboto";
   font-style: normal;
@@ -245,6 +242,10 @@ img {
   padding-right: 16px;
 }
 /* SOC CARDS */
+.svg-icons {
+  justify-content: center;
+  align-items: center;
+}
 .soc-card-list {
   display: flex;
   justify-content: center;
@@ -253,6 +254,16 @@ img {
 .soc-card-item {
   width: 40px;
   height: 40px;
+}
+.soc-card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+  color: var(--primary-background-color);
+  margin-left: 0;
+  line-height: calc(24 / 16);
 }
 .soc-card-link {
   width: 100%;
@@ -288,14 +299,13 @@ img {
   background: var(--primary-background-color);
 }
 .customers {
-  height: 200px;
   justify-content: center;
-}
-.container-customers {
   text-align: center;
   align-items: center;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .customers-title {
   margin-bottom: 72px;
 }
@@ -330,20 +340,17 @@ img {
 .page-footer {
   color: var(--footer-color);
   background: var(--background-footer);
-  height: 312px;
+  padding: 120px 0;
 }
 .foot-container {
   display: flex;
 }
 .logo-container {
-  padding-top: 101.5px;
   justify-content: center;
 }
 .container-cards {
-  padding-top: 100px;
   padding-left: 120px;
 }
-
 .footer-web {
   color: var(--logo-web);
 }
