@@ -65,7 +65,7 @@ img {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .buttton {
   margin-bottom: 72px;
@@ -243,8 +243,13 @@ img {
 }
 /* SOC CARDS */
 .svg-icons {
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--footer-studio);
 }
 .soc-card-list {
   display: flex;
