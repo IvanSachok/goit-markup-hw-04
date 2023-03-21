@@ -336,6 +336,10 @@ img {
   justify-content: center;
   border: 1px solid #8e8f99;
   fill: var(--icon-color);
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .customers-list-link:hover {
   fill: var(--hover);
@@ -358,7 +362,7 @@ img {
   justify-content: center;
 }
 .container-cards {
-  padding-left: 120px;
+  margin-left: 120px;
 }
 .footer-web {
   color: var(--logo-web);
