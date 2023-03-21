@@ -9,7 +9,7 @@
   --background-footer: #2e2f42;
   --footer-color: #e7e9fc;
   --footer-studio: #f4f4fd;
-  --icon-color: #afb1b8;
+  --icon-color: #8e8f99;
 }
 p,
 h1,
@@ -303,6 +303,10 @@ img {
   border: 1px solid var(--footer-color);
   background: var(--primary-background-color);
 }
+.image:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .customers {
   justify-content: center;
   text-align: center;
@@ -323,7 +327,6 @@ img {
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  border: 1px solid #8e8f99;
 }
 .customers-list-link {
   width: 100%;
@@ -331,15 +334,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #8e8f99;
   fill: var(--icon-color);
 }
 .customers-list-link:hover {
-  background-color: var(--primary-background-color);
   fill: var(--hover);
+  border: 1px solid #404bbf;
 }
 .customers-list-link:focus {
-  background-color: var(--primary-background-color);
   fill: var(--focus);
+  border: 1px solid #404bbf;
 }
 /* Footer */
 .page-footer {
